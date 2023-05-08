@@ -1,0 +1,27 @@
+.contact-content {
+    background-color: rgb(244, 233, 233);
+    /* display: flex; */
+    margin-top: 32px;
+    height: 100vh;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    /* background-image: url(/img/imag1.jpg); */
+}
+.contact-content h2{
+    color: black;
+}
+.contact-content::after{
+    content: "";
+    /* background-image: url("../img/images\ \(2\).jpg"); */
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+    border-radius: 12px;
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
